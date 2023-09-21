@@ -1,0 +1,946 @@
+body{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+.logo{
+    margin-left: 16px;
+    margin-top: 15px;
+    float: left;
+    display: table;
+}
+header ul{
+    float: right;
+    margin-right: 24px;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 25px;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 45px;
+    padding: 7px 12px;
+}
+header ul li a{
+    color: rgb(8, 138, 189);
+    text-decoration: none;
+}
+header ul li a:hover{
+    background-color: rgb(23, 160, 214);
+    border-radius: 3px;
+    color: white;
+    transition: 0.5s linear;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.menu{
+    display: table;
+    margin-top: 13px;
+    float: right;
+}
+.nav{
+    float: right;
+    height: 100%;
+
+}
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.nav a li{
+    display: table-cell;
+    color: rgb(33, 126, 163);
+    height: 100%;
+    font-style: normal;
+   
+}
+.paragraphone{ 
+    width: 100%;
+    height: 30px;
+    background-color: rgb(235, 230, 230); 
+    display: table;
+   
+    text-align: center;
+}
+.paragraphone a{
+    margin-left: 150px;
+    color: rgb(33, 126, 163);
+    font-weight: 100;
+    font-family: "Univers LT W01 55 Roman";
+    font-size: 0.947em;
+    margin-right: 15em;
+    text-decoration: none;
+}
+.cookies{
+    margin-left: 34em;
+    word-spacing: 2px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+   
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    text-decoration: none;
+}
+.cookies a{
+    color: rgb(33, 126, 163);
+    text-decoration-line: none;
+}
+.cookies span:hover{
+    color: rgb(33, 126, 163);
+    text-decoration: none;
+}
+.capex{
+    margin-top: 20px;
+    position: relative;
+   
+}
+.capex span{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: auto;
+    margin-top: 4em;
+    margin-left: 4em;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 200;
+}
+.capex h1{
+    top: 2.15em;
+    left: 1.02em;
+    position: absolute;
+    height: auto;
+    color: white;
+    font-size: 60px;
+    font-family: sabonroman, serif;
+    font-weight: 100;
+    line-height: 55px;
+}
+.capex p{
+    top: 19em;
+    left: 4em;
+    position: absolute;
+    height: auto;
+    color: white;
+   
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+}
+.capex div{
+    top: 27em;
+    left: 3.5em;
+    position: absolute;
+    height: auto;
+}
+.capex div button{
+    color: white;
+    background-color: transparent;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: inline-block;
+    border: 1px solid white;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-weight: 450;
+  
+}
+.capex div button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    transition-duration: 0.45s;
+    transition-delay: 0.45s;
+}
+.discover{
+    text-align: center;
+}
+.discover h1{
+  
+    font-size: 45px;
+    font-weight: 300;
+    display: block;
+}
+.discover p{
+    
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    padding-bottom: 13px;
+}
+.discover a{
+    color:#000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.discover a:hover{
+    color: rgb(33, 126, 163);
+    
+}
+.exchanges{
+    width: 100%;
+    margin-top: 80px;
+
+}   
+.exchanges img{
+    width: 40%;
+    float: right;
+    position: relative;
+    top: 10px;
+    margin-right: 30px;
+}
+.atgold{
+    height: auto;
+    font-style: normal;
+    font-weight: 50;
+    
+    font-size: 14px;
+    color: rgb(167, 164, 164);
+    margin-left: 35px;
+}
+.exchanges h2{
+    font-family: sabonroman, serif;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-left: 34px;
+    word-spacing: 0.5px;
+}
+.builders{
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: normal;
+    
+    color: rgb(121, 118, 118);
+    line-height: 25px;
+}
+.exchanges div{
+    margin-top: 28px;
+    margin-left: 35px;
+    position: absolute;
+}
+.exchanges div button{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    font-weight: 400;
+}
+.exchanges div button:hover{
+    background-color: rgb(47, 116, 143);
+    color: white;
+    font-weight: 400;
+    transition: 0.2s ease;
+   
+}
+.middle1{
+    width: 100%;
+    margin-top: 210px;
+}
+.middle1 img{
+    width: 40%;
+    float: left;
+    margin-left: 35px;
+    border: 2px solid rgba(17, 142, 245, 0.555);
+}
+.bose{
+    float: right;
+    margin-right: 13.52em;
+}
+.gstalks{
+    padding-bottom: 1.5em;
+    color: rgb(51, 50, 50);
+    
+    font-size: 14px;
+    font-weight: lighter;
+}
+.bose h2{
+    font-family: sabonroman, serif;
+    font-size: 35px;
+    font-weight: lighter;
+    word-spacing: 0.5px;
+}
+.discuss{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: GoldmanSans, Arial, Helvetica, sans-serif;
+    color: rgb(121, 118, 118);
+}
+.adeoye{
+    margin-top: 30px;
+    float: right;
+    margin-right: 33.6em;
+    
+}
+.adeoye button{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 1px solid white;
+    font-weight: 400;
+    font-family: GoldmanSans, Arial, Helvetica, sans-serif;
+}
+.adeoye button:hover{
+    background-color: rgb(2, 85, 153);
+    color: white;
+    font-family: GoldmanSans, Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+}
+#morex{
+   margin-top: 35em;
+    
+}
+.morex1{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 7em;
+    display: flex;
+    /* padding: 30px; */
+    justify-content: space-around;
+
+}
+.morex1 img{
+    width: 200px;
+}
+h4{
+    margin-bottom: 7em;
+    color: rgb(110, 109, 109);
+    font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    margin-left: 10em;
+}
+/* .top{
+    margin-right: 20px;
+} */
+.top h5{
+    margin-top: 10px;
+    margin-left: 05px;
+    font-size: 20px;
+}
+.top h5:hover{
+    color: rgb(73, 72, 72);
+    transition: 0.35s ease-in-out;
+}
+.top p:hover{
+    color: rgb(26, 23, 23);
+    transition: 0.35s ease-in-out;
+}
+.top p{
+    margin-left: 07px;
+    margin-bottom: 4em;
+    font-size: 20px;
+}
+.exchange h5{
+    margin-top: 10px;
+    margin-left: 05px;
+    font-size: 20px;
+}
+.exchange h5:hover{
+    color: rgb(73, 72, 72);
+    transition: 0.35s ease-in-out;
+}
+.exchange p{
+    margin-left: 05px;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+.exchange p:hover{
+    color: rgb(26, 23, 23);
+    transition: 0.35s ease-in-out;
+}
+.birm h5{
+    margin-top: 10px;
+    margin-left: 04px;
+    font-size: 20px;
+}
+.birm h5:hover{
+    color: rgb(73, 72, 72);
+    transition: 0.35s ease-in-out;
+}
+.talks h5{
+    margin-top: 10px;
+    margin-left: 05px;
+    font-size: 18px;
+}
+.talks h5:hover{
+    color: rgb(73, 72, 72);
+    transition: 0.35s ease-in-out;
+}
+.talks p{
+    margin-left: 07px;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+.talks p:hover{
+    color: rgb(26, 23, 23);
+    transition: 0.35s ease-in-out;
+}
+.footer{
+    display: flex;
+    background-color: rgb(8, 138, 189);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}  
+.london{
+    margin-top: 1em;
+}
+.london h3{
+    font-size: 1.5em;
+    margin-left: 27px;
+}
+.london ul{
+    list-style: none;
+    margin-left: 30px;
+}
+.london ul li{
+    font-weight: 500;
+}
+.sc h3{
+    font-size: 1.5em;
+    margin-top: 18px;
+    /* margin-left: 2px; */
+} 
+.sc ul{
+    list-style: none;
+    margin-right: 35px;
+}
+.sc ul li{
+    font-weight: 500;
+}
+.la h3{
+    font-size: 1.5em;
+    margin-top: 18px;
+    margin-right: 23px;
+} 
+.la ul{
+    list-style: none;
+    margin-right: 35px;
+}
+.la ul li{
+    font-weight: 500;
+}
+.footer h4{
+    color: black;
+    padding: 2em;
+    margin-top: 30px;
+}
+@media (min-width: 119px) and (max-width:800px){
+    body{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    header{
+        width: 100%; 
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+    .logo{
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+        display: table;
+    }
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+    
+    .menu-toggle.active .line:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+    
+    .menu-toggle.active .line:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active .line:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }    
+    header ul{
+        /* float: right; */
+        right: 0;
+        position: absolute;
+    }
+    header ul li{
+        display: inline-block;
+        margin-right: 0px;
+        text-transform: capitalize;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 13px;
+        line-height: 60px;
+        padding: 5px 10px;
+    }
+    header ul li a{
+        color: rgb(8, 138, 189);
+        text-decoration: none;
+    }
+    header ul li a:hover{
+        background-color: rgb(23, 160, 214);
+        border-radius: 3px;
+        color: white;
+        transition: 0.5s linear;
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .menu{
+        display: table;
+        margin-top: 13px;
+        float: right;
+    }
+    .nav{
+        float: right;
+        height: 100%;
+    
+    }
+    .nav a{
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+    }
+    .nav a li{
+        display: table-cell;
+        color: rgb(33, 126, 163);
+        height: 100%;
+        font-style: normal;
+       
+    }
+    .paragraphone{ 
+        width: 100%;
+        height: 30px;
+        background-color: rgb(235, 230, 230); 
+        display: table;
+       
+        text-align: center;
+    }
+    .paragraphone a{
+        margin-left: 150px;
+        color: rgb(33, 126, 163);
+        font-weight: 100;
+        font-family: "Univers LT W01 55 Roman";
+        font-size: 0.947em;
+        margin-right: 15em;
+        text-decoration: none;
+    }
+    .cookies{
+        margin-left: 34em;
+        word-spacing: 2px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+       
+        position: relative;
+        display: inline-block;
+        top: 15px;
+        text-decoration: none;
+    }
+    .cookies a{
+        color: rgb(33, 126, 163);
+        text-decoration-line: none;
+    }
+    .cookies span:hover{
+        color: rgb(33, 126, 163);
+        text-decoration: none;
+    }
+    .capex{
+        margin-top: 20px;
+        position: relative;
+       
+    }
+    .capex span{
+        top: 0;
+        left: 0;
+        position: absolute;
+        height: auto;
+        margin-top: 4em;
+        margin-left: 4em;
+        color: white;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    .capex h1{
+        top: 2.15em;
+        left: 1.02em;
+        position: absolute;
+        height: auto;
+        color: white;
+        font-size: 60px;
+        font-family: sabonroman, serif;
+        font-weight: 100;
+        line-height: 55px;
+    }
+    .capex p{
+        top: 19em;
+        left: 4em;
+        position: absolute;
+        height: auto;
+        color: white;
+       
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .capex div{
+        top: 27em;
+        left: 3.5em;
+        position: absolute;
+        height: auto;
+    }
+    .capex div button{
+        color: white;
+        background-color: transparent;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        display: inline-block;
+        border: 1px solid white;
+        letter-spacing: 3px;
+        word-spacing: 4px;
+        font-weight: 450;
+      
+    }
+    .capex div button:hover{
+        background-color: white;
+        color: black;
+        font-weight: 500;
+        transition-duration: 0.45s;
+        transition-delay: 0.45s;
+    }
+    .discover{
+        text-align: center;
+    }
+    .discover h1{
+      
+        font-size: 45px;
+        font-weight: 300;
+        display: block;
+    }
+    .discover p{
+        
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 20px;
+        padding-bottom: 13px;
+    }
+    .discover a{
+        color:#000;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .discover a:hover{
+        color: rgb(33, 126, 163);
+        
+    }
+    .exchanges{
+        width: 100%;
+        margin-top: 80px;
+    
+    }   
+    .exchanges img{
+        width: 40%;
+        float: right;
+        position: relative;
+        top: 10px;
+        margin-right: 30px;
+    }
+    .atgold{
+        height: auto;
+        font-style: normal;
+        font-weight: 50;
+        
+        font-size: 14px;
+        color: rgb(167, 164, 164);
+        margin-left: 35px;
+    }
+    .exchanges h2{
+        font-family: sabonroman, serif;
+        font-size: 35px;
+        font-weight: lighter;
+        margin-left: 34px;
+        word-spacing: 0.5px;
+    }
+    .builders{
+        margin-left: 35px;
+        font-size: 16px;
+        font-weight: normal;
+        
+        color: rgb(121, 118, 118);
+        line-height: 25px;
+    }
+    .exchanges div{
+        margin-top: 28px;
+        margin-left: 35px;
+        position: absolute;
+    }
+    .exchanges div button{
+        background-color: black;
+        color: white;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid white;
+        font-weight: 400;
+    }
+    .exchanges div button:hover{
+        background-color: rgb(47, 116, 143);
+        color: white;
+        font-weight: 400;
+        transition: 0.2s ease;
+       
+    }
+    .middle1{
+        width: 100%;
+        margin-top: 210px;
+    }
+    .middle1 img{
+        width: 40%;
+        float: left;
+        margin-left: 35px;
+        border: 2px solid rgba(17, 142, 245, 0.555);
+    }
+    .bose{
+        float: right;
+        margin-right: 13.52em;
+    }
+    .gstalks{
+        padding-bottom: 1.5em;
+        color: rgb(51, 50, 50);
+        
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    .bose h2{
+        font-family: sabonroman, serif;
+        font-size: 35px;
+        font-weight: lighter;
+        word-spacing: 0.5px;
+    }
+    .discuss{
+        font-size: 15px;
+        font-weight: 400;
+        font-family: GoldmanSans, Arial, Helvetica, sans-serif;
+        color: rgb(121, 118, 118);
+    }
+    .adeoye{
+        margin-top: 30px;
+        float: right;
+        margin-right: 33.6em;
+        
+    }
+    .adeoye button{
+        background-color: black;
+        color: white;
+        box-sizing: border-box;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        border: 1px solid white;
+        font-weight: 400;
+        font-family: GoldmanSans, Arial, Helvetica, sans-serif;
+    }
+    .adeoye button:hover{
+        background-color: rgb(2, 85, 153);
+        color: white;
+        font-family: GoldmanSans, Arial, Helvetica, sans-serif;
+        transition: 0.5s ease-in-out;
+    }
+    #morex{
+       margin-top: 35em;
+        
+    }
+    .morex1{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 7em;
+        display: flex;
+        /* padding: 30px; */
+        justify-content: space-around;
+    
+    }
+    .morex1 img{
+        width: 200px;
+    }
+    h4{
+        margin-bottom: 7em;
+        color: rgb(110, 109, 109);
+        font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+        margin-left: 10em;
+    }
+    /* .top{
+        margin-right: 20px;
+    } */
+    .top h5{
+        margin-top: 10px;
+        margin-left: 05px;
+        font-size: 20px;
+    }
+    .top h5:hover{
+        color: rgb(73, 72, 72);
+        transition: 0.35s ease-in-out;
+    }
+    .top p:hover{
+        color: rgb(26, 23, 23);
+        transition: 0.35s ease-in-out;
+    }
+    .top p{
+        margin-left: 07px;
+        margin-bottom: 4em;
+        font-size: 20px;
+    }
+    .exchange h5{
+        margin-top: 10px;
+        margin-left: 05px;
+        font-size: 20px;
+    }
+    .exchange h5:hover{
+        color: rgb(73, 72, 72);
+        transition: 0.35s ease-in-out;
+    }
+    .exchange p{
+        margin-left: 05px;
+        margin-bottom: 2em;
+        font-size: 20px;
+    }
+    .exchange p:hover{
+        color: rgb(26, 23, 23);
+        transition: 0.35s ease-in-out;
+    }
+    .birm h5{
+        margin-top: 10px;
+        margin-left: 04px;
+        font-size: 20px;
+    }
+    .birm h5:hover{
+        color: rgb(73, 72, 72);
+        transition: 0.35s ease-in-out;
+    }
+    .talks h5{
+        margin-top: 10px;
+        margin-left: 05px;
+        font-size: 18px;
+    }
+    .talks h5:hover{
+        color: rgb(73, 72, 72);
+        transition: 0.35s ease-in-out;
+    }
+    .talks p{
+        margin-left: 07px;
+        margin-bottom: 2em;
+        font-size: 20px;
+    }
+    .talks p:hover{
+        color: rgb(26, 23, 23);
+        transition: 0.35s ease-in-out;
+    }
+    .footer{
+        display: flex;
+        background-color: rgb(8, 138, 189);
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }  
+    .london{
+        margin-top: 1em;
+    }
+    .london h3{
+        font-size: 1.5em;
+        margin-left: 27px;
+    }
+    .london ul{
+        list-style: none;
+        margin-left: 30px;
+    }
+    .london ul li{
+        font-weight: 500;
+    }
+    .sc h3{
+        font-size: 1.5em;
+        margin-top: 18px;
+        /* margin-left: 2px; */
+    } 
+    .sc ul{
+        list-style: none;
+        margin-right: 35px;
+    }
+    .sc ul li{
+        font-weight: 500;
+    }
+    .la h3{
+        font-size: 1.5em;
+        margin-top: 18px;
+        margin-right: 23px;
+    } 
+    .la ul{
+        list-style: none;
+        margin-right: 35px;
+    }
+    .la ul li{
+        font-weight: 500;
+    }
+    .footer h4{
+        color: black;
+        padding: 2em;
+        margin-top: 30px;
+    }
+} 
